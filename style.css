@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background: rgb(255,141,0);
+background: radial-gradient(circle, rgba(255,141,0,1) 0%, rgba(0,134,255,1) 100%);
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+}
+
+#apps, #games, #art, #chatbot {
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: transform.2s;
+    height: 300px;
+}
